@@ -185,61 +185,70 @@ db.Films
 
 **1. Чтение базы данных (п. 1)**
 
-![Чтение базы данных] <img width="669" height="200" alt="image" src="https://github.com/user-attachments/assets/cdf36584-b1b3-4135-aff3-2a5ed4e4e86b" />
+<img width="669" height="200" alt="image" src="https://github.com/user-attachments/assets/cdf36584-b1b3-4135-aff3-2a5ed4e4e86b" />
 
 
 **2. Просмотр таблиц (п. 2)**
 
-![Просмотр фильмов](screenshots/02_view_films.png)
+<img width="1072" height="324" alt="image" src="https://github.com/user-attachments/assets/590bad41-d1ef-4afd-86dd-8b3cea593293" />
 
-![Просмотр режиссёров](screenshots/03_view_directors.png)
+<img width="481" height="574" alt="image" src="https://github.com/user-attachments/assets/963d90d6-10c0-42f7-8d05-bf5f9d22c092" />
 
-![Просмотр жанров](screenshots/04_view_genres.png)
+<img width="472" height="402" alt="image" src="https://github.com/user-attachments/assets/0f697284-555f-469f-9ecd-6f6298b1271e" />
 
-**3. Добавление элемента (п. 4)**
+**3. Удаление элемента по ключу (п. 3)**
 
-Успешное добавление и отказ при дублирующемся ключе или несуществующем режиссёре.
+Успешное удаление, несуществующий ключ.
 
-![Добавление фильма](screenshots/05_add_ok.png)
+<img width="784" height="207" alt="image" src="https://github.com/user-attachments/assets/08fbfa28-0584-47e5-a2b4-24e6ee820a90" />
+<img width="474" height="218" alt="image" src="https://github.com/user-attachments/assets/915f1630-869f-4283-83d5-74fa9bc67fee" />
+<img width="556" height="160" alt="image" src="https://github.com/user-attachments/assets/3047a7c4-6334-4ba8-9b55-fbbf782a6d92" />
 
-![Ошибка при добавлении](screenshots/06_add_error.png)
 
-**4. Удаление элемента по ключу (п. 3)**
+<img width="474" height="230" alt="image" src="https://github.com/user-attachments/assets/79a78332-7e88-477f-b444-a300feae4e01" />
 
-Успешное удаление, отказ при ссылках из других таблиц, несуществующий ключ.
+**4. Добавление элемента (п. 4)**
 
-![Удаление фильма](screenshots/07_delete_ok.png)
+Успешное добавление и отказ при дублирующемся ключе.
 
-![Ошибка при удалении режиссёра](screenshots/08_delete_error.png)
+<img width="483" height="328" alt="image" src="https://github.com/user-attachments/assets/f2eab08a-a2ed-4618-88d1-deb463209a0a" />
+<img width="547" height="131" alt="image" src="https://github.com/user-attachments/assets/0ab9d297-4e00-499b-b49f-4bd604c3e939" />
+
+
+<img width="475" height="332" alt="image" src="https://github.com/user-attachments/assets/8371098c-1faf-4e3e-b73f-68ab0c69884e" />
+
 
 **5. Запросы (п. 5)**
 
 Запрос 1. Параметры: 1920, 1960, 1000000.
 
-![Запрос 1](screenshots/09_query1.png)
+<img width="705" height="317" alt="image" src="https://github.com/user-attachments/assets/80cd1571-0827-461b-aaa7-b6790d4da253" />
+
 
 Запрос 2. Параметр: страна «СССР».
 
-![Запрос 2](screenshots/10_query2.png)
+<img width="727" height="482" alt="image" src="https://github.com/user-attachments/assets/9dc30476-8227-4ca5-adfa-ae9ae0f659ff" />
+
 
 Запрос 3. Параметры: страна «СССР», жанр пустой, 1920, 1960, 1000000. Ожидаемый результат для файла из задания: **38 %**.
 
-![Запрос 3](screenshots/11_query3.png)
+<img width="716" height="353" alt="image" src="https://github.com/user-attachments/assets/ae23db69-3816-4ac6-aa57-e2ca5fa5d374" />
+
 
 Запрос 4. Параметр: страна «СССР».
 
-![Запрос 4](screenshots/12_query4.png)
+<img width="720" height="353" alt="image" src="https://github.com/user-attachments/assets/f4b28445-96c6-4e4f-9fcf-5dcf120fc4f1" />
+
 
 **6. Сохранение изменений (п. 6)**
 
-![Сохранение](screenshots/13_save.png)
-
-Результат в Excel после сохранения (добавленный фильм виден в таблице):
-
-![Файл Excel после сохранения](screenshots/14_excel_after_save.png)
+Видно на других скриншотах.
 
 **7. Обработка ошибок**
 
 Операция до загрузки базы, ввод буквы вместо числа, отсутствующий файл.
 
-![Ошибки ввода](screenshots/15_errors.png)
+<img width="366" height="177" alt="image" src="https://github.com/user-attachments/assets/82a8e32a-f167-43fa-953a-44337d217bf5" />
+<img width="310" height="178" alt="image" src="https://github.com/user-attachments/assets/a8d15e0d-7486-4a40-b1b6-6660602b9f73" />
+<img width="674" height="184" alt="image" src="https://github.com/user-attachments/assets/3b23903f-7052-4a34-a2ac-5220c11cc7a4" />
+
