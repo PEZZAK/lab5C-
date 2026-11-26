@@ -185,7 +185,8 @@ db.Films
 
 **1. Чтение базы данных (п. 1)**
 
-![Чтение базы данных](screenshots/01_load.png)
+![Чтение базы данных] <img width="669" height="200" alt="image" src="https://github.com/user-attachments/assets/cdf36584-b1b3-4135-aff3-2a5ed4e4e86b" />
+
 
 **2. Просмотр таблиц (п. 2)**
 
